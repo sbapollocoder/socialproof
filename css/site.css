@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.main {
+  background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+.main .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .container h1 {
+  color: #502050;
+  text-align: center;
+  width: 20.5375rem;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2rem;
+  margin: 5rem 1.5rem 1.75rem 1.5rem;
+}
+.main .container p {
+  color: #937b92;
+  text-align: center;
+  margin: 0rem 1.5rem 2.875rem 1.5rem;
+  width: 20.5375rem;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+.main .container .rating {
+  border-radius: 7px;
+  background-color: #f7f2f7;
+  color: #502050;
+  width: 20.4375rem;
+  height: 4.875rem;
+  margin: 0rem 1.5rem 1rem 1.5rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+.main .container .rating p {
+  color: #502050;
+  font-weight: bold;
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-top: 0.3rem;
+}
+.main .container .buyer {
+  border-radius: 7px;
+  background-color: #502050;
+  width: 20.4375rem;
+  margin: 1rem 1.5rem;
+  height: 15.5rem;
+  font-size: 1rem;
+  padding: 2rem;
+}
+.main .container .buyer-image {
+  position: relative;
+  top: -40px;
+  left: -40px;
+  display: inline;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.main .container .buyer .colton {
+  background: url("../images/image-colton.jpg") no-repeat;
+  object-fit: cover;
+}
+.main .container .buyer .irene {
+  background: url("../images/image-irene.jpg") no-repeat;
+}
+.main .container .buyer .anne {
+  background: url("../images/image-anne.jpg") no-repeat;
+}
+.main .container .buyer h2 {
+  color: white;
+}
+.main .container .buyer h3 {
+  color: #ee68a4;
+}
+.main .container .buyer p {
+  color: white;
+}
+
+svg {
+  width: 17px;
+  height: 16px;
+  fill: #dea600;
+}
+
+/*# sourceMappingURL=site.css.map */

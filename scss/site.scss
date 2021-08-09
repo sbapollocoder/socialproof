@@ -1,0 +1,122 @@
+$very-dark-magenta: hsl(300,43%,22%);
+$soft-pink: hsl(333,80%,67%);
+$dark-grayish-magenta: hsl(303,10%,53%);
+$light-grayish-magenta: hsl(300,24%,96%);
+$white: hsl(0,0,100%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.main {
+
+  background-image: url('../images/bg-pattern-top-mobile.svg'), url('../images/bg-pattern-bottom-mobile.svg');
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      color: $very-dark-magenta;
+      text-align: center;
+      width: 20.5375rem;
+      font-size: 2rem;
+      font-weight: bold;
+      line-height: 2rem;
+      margin: 5rem 1.5rem 1.75rem 1.5rem;
+    }
+
+    p {
+      color: $dark-grayish-magenta;
+      text-align: center;
+      margin: 0rem 1.5rem 2.875rem 1.5rem;
+      width: 20.5375rem;
+      font-size: 0.9rem;
+      line-height: 1.4rem;
+    }
+
+    .rating {
+      border-radius: 7px;
+      background-color: $light-grayish-magenta;
+      color: $very-dark-magenta;
+      width: 20.4375rem;
+      height: 4.875rem;
+      margin: 0rem 1.5rem 1rem 1.5rem;
+      padding-top: 1rem;
+      text-align: center;
+
+      p {
+        color: $very-dark-magenta;
+        font-weight: bold;
+        margin: 0rem;
+        padding: 0rem;
+        font-size: 0.8rem;
+        text-align: center;
+        padding-top: 0.3rem;
+      }
+    }
+
+    .buyer {
+      border-radius: 7px;
+      background-color: $very-dark-magenta;
+      width: 20.4375rem;
+      margin: 1rem 1.5rem;
+      height: 15.5rem;
+      font-size: 1rem;
+      padding: 2rem;
+
+      &-image {
+        position: relative;
+        top: -40px;
+        left: -40px;
+        display: inline;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .colton {
+        background: url('../images/image-colton.jpg') no-repeat;
+        object-fit: cover;
+      }
+
+      .irene {
+        background: url('../images/image-irene.jpg') no-repeat;
+      }
+
+      .anne {
+        background: url('../images/image-anne.jpg') no-repeat;
+      }
+
+      h2 {
+        color: $white;
+      }
+
+      h3 {
+        color: $soft-pink;
+      }
+
+      p {
+        color: $white;
+      }
+    }
+  }
+}
+
+svg {
+  width: 17px;
+  height: 16px;
+  fill: rgb(222, 166, 0);
+}
